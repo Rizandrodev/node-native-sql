@@ -1,0 +1,17 @@
+{
+  "name": "sql-lite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --inspect --watch --experimental-sqlite src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "semver": "^7.6.3",
+    "sql-bricks": "^3.0.1"
+  }
+}
